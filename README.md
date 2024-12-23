@@ -40,8 +40,6 @@ Receive instant notifications whenever a file is uploaded to your S3 bucket.
 2. Add the following bucket policy to allow S3 to send events to SNS:Replace:
     
     ```json
-    json
-    Copy code
     {
         "Version": "2012-10-17",
         "Statement": [
